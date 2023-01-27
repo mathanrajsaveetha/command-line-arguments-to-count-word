@@ -32,7 +32,8 @@ with open(sys.argv[1],'r') as f:
 print("Number of words={}".format(num_words))
 ```
 ### OUTPUT:
-![image](https://user-images.githubusercontent.com/119560501/214978926-5c83b7f0-92c5-4bee-8bef-5d8749d714b7.png)
+![image](https://user-images.githubusercontent.com/119560501/214979050-634a7205-0e58-4450-b0d3-154e67d1a386.png)
+
 ![image](https://user-images.githubusercontent.com/119560501/214978497-69e25e0d-6a5d-4e9c-a528-adb31dd7e4b0.png)
 
 
