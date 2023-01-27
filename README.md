@@ -6,20 +6,34 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-
+import sys
 ### Step 2: 
- 
+ open file using open().
 ### Step 3: 
-
+Use for loop.
 ### Step 4:  
-
+Use len to count number of words
 ### Step 5: 
+give print
 
-### Step 6: 
 
 ## PROGRAM:
+```
+##Developed by : MATHAN RAJ E
+##Register number :22008971
 
+import sys
+
+with open(sys.argv[1],'r') as f:
+    num_words =0
+    for i in f:
+        word =i.split()
+        num_words += len(word)
+print("Number of words={}".format(num_words))
+```
 ### OUTPUT:
+![image](https://user-images.githubusercontent.com/119560501/214978255-cf369c42-f5ed-4e80-8921-d76671e0fa1b.png)
+![image](https://user-images.githubusercontent.com/119560501/214978497-69e25e0d-6a5d-4e9c-a528-adb31dd7e4b0.png)
 
 
 
